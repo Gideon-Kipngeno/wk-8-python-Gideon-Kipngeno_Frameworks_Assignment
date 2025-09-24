@@ -26,14 +26,24 @@ This repository contains a Python-based data analysis and visualization project 
 
 ---
 
-## File Structure
+# Project Structure
 
+```bash
 Frameworks_Assignment/
-├── app.py # Main Streamlit application
-├── data_analysis.py # Data analysis and visualization module
-├── requirements.txt # Python dependencies list
-├── metadata.csv # Dataset used for analysis (download separately)
-└── README.md # Project documentation
+│
+├── app.py                 # Main Streamlit application
+├── data_analysis.py       # Data analysis and visualization module
+├── requirements.txt       # Python dependencies list
+├── metadata.csv           # Dataset used for analysis (download separately)
+├── README.md              # Project documentation
+
+```
+## File Descriptions
+
+- **app.py**: Main Streamlit application containing the web interface
+- **data_analysis.py**: Contains data processing, analysis, and visualization functions
+- **requirements.txt**: Lists all Python packages required to run the project
+- **metadata.csv**: Dataset file (not included in repo due to size)
 
 ---
 
@@ -63,19 +73,10 @@ cd wk-8-python-Gideon-Kipngeno_Frameworks_Assignment
 ```bash
 pip install -r requirements.txt
 ```
-3. Download the dataset:
+3. **Download the dataset** (separately due to size)
+   - Place `metadata.csv` in the project root
 
-Visit CORD-19 on Kaggle
-
-Download metadata.csv and place it in the project root directory then: 
-
-- Run this file to analyse data
-```bash
-python data_analysis.py 
-```
-
-4. Run the Streamlit app:
-
+4. **Run the application**
 ```bash
 streamlit run app.py 
 ```
@@ -95,6 +96,11 @@ The dashboard will load automatically
 3. Visual storytelling with Python
 
 4. Building and deploying interactive apps with Streamlit
+
+
+## 👨‍💻 Author
+
+Gideon Kipngeno - PLP Academy Assignment
 
 ---
 
